@@ -11,8 +11,6 @@ Original file is located at
 from google.colab import drive
 drive.mount('/content/drive')
 
-!pip install geopandas shapely openpyxl plotly seaborn --quiet
-
 import pandas as pd
 import numpy as np
 import geopandas as gpd
