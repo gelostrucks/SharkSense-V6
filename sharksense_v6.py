@@ -8,8 +8,7 @@ Original file is located at
 """
 
 #  1. Conexión y librerías
-from google.colab import drive
-drive.mount('/content/drive')
+df = pd.read_csv('modelo_orbital_validado.csv')
 
 import pandas as pd
 import numpy as np
