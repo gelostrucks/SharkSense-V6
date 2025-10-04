@@ -201,7 +201,3 @@ fig.update_layout(
 
 fig.show()
 
-#  10. Exportación final
-gdf_ocean.drop(columns='geometry').to_csv('/content/drive/MyDrive/SharkSenseGlobal/modelo_orbital_validado.csv', index=False)
-gdf_ocean.drop(columns='geometry').to_excel('/content/drive/MyDrive/SharkSenseGlobal/modelo_orbital_validado.xlsx', index=False)
-print("Modelo exportado en CSV y Excel.")
