@@ -81,7 +81,7 @@ def intensidad_forrajeo(row):
 df['F'] = df.apply(intensidad_forrajeo, axis=1)
 
 # 5. Filtrado geográfico con shapefile oceánico
-oceans = gpd.read_file('data/ne_10m_ocean.shp')
+oceans = gpd.read_file('ne_10m_ocean.shp')
 
 from shapely.geometry import Point
 
