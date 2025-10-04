@@ -1,0 +1,7 @@
+geopandas
+shapely
+openpyxl
+plotly
+seaborn
+streamlit
+pandas
